@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sign Up | Sign In</title>
+	<link rel="stylesheet" type="text/css" href="Style.css">
+</head>
+<body>
+	<div class="div1">
+		<form>
+		<h1 align=center style="font: 50px courier ; "><b>Sign  Up</b></h1>
+		<h3>Username: <br><input type="text" name="Username" placeholder="Enter Your Username." required></h3><hr>
+		<h3>Phone Number: <br><input type="tel" name="Phno" placeholder="Enter Your Phone Number." pattern="[0-9]{10}" required></h3><hr>
+		<h3>Email Id: <br><input type="email" name="Emailid" placeholder="Enter Your Email Id." required></h3><hr>
+		<h3>Password: <br><input type="Password" name="Password" placeholder="Enter Your Password." pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{4,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 4 or more characters" required></h3><hr>     <!-- (?=.*\d) for digit(number) -->
+		<h3>Confirm Password: <br><input type="Password" name="ConPassword" placeholder="Re-Enter Your Password." required></h3><hr><br>
+		<input type="Submit" name="SignUp" value="SIGN UP" class="button"><br><br><br>
+		<p align=center> Or Sign Up Using </p>
+		<p align="center"><a href="">A</a><a href=""> B </a><a href="">C</a></p><br><br><br>
+		<p align="center"> Or Sign In Using </p>
+		<p align="center"><a href=""> Sign In </a></p>
+		</form>
+	</div>	
+</body>
+</html>

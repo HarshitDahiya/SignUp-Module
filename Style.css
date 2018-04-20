@@ -1,0 +1,50 @@
+body{
+	background: linear-gradient(to top left, #33ccff 0%, #9933ff 100%);
+	/*background:rgb(158, 111, 252);*/
+}
+
+.div1{
+	border-radius: 10px;
+	background: rgb(254, 245, 252);
+	margin: auto;
+	padding-left: 50px ;
+	padding-top: 20px;
+	padding-right: 50px;
+	padding-bottom: 30px;
+	width:40%;
+	height:100%x;
+}
+
+input{
+	border: none;
+	background: rgb(254, 245, 252);
+	margin-top: 10px;
+	padding-top: 10px;
+}
+
+input:active{
+	border: none;
+	
+}
+
+.button{
+	box-shadow: 0 9px #999;
+	padding-top: 4px;
+	height: 50px;
+	width: 100%;
+	font-size: 25px;
+	font-weight: bolder;
+	border-radius: 20px;
+	background:  linear-gradient(to right, #33ccff 0%, #ff99cc 100%);
+	color: white;
+}
+
+.button:active {
+ 	background-color: #3e8e41;
+  	box-shadow: 0 5px #666;
+	transform: translateY(6px);
+}
+
+a{
+	text-decoration: none;
+}
